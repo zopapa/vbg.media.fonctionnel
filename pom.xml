@@ -3,17 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bootcamp</groupId>
-    <artifactId>MediaRestServices</artifactId>
+    <artifactId>vbg.MediaRestServices</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>MediaRestServices</name>
+    <name>vbg.MediaRestServices</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <config.home>/home/config/dev</config.home>
+        <config.home>/home/vbg.config/dev</config.home>
     </properties>
 
     <dependencies>
@@ -27,13 +27,13 @@
 
         <dependency>
             <groupId>com.bootcamp</groupId>
-            <artifactId>commons.ws</artifactId>
+            <artifactId>vbg-commons.ws</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.bootcamp</groupId>
-            <artifactId>service.crud</artifactId>
+            <artifactId>vbg.service.crud</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
@@ -151,7 +151,7 @@
         </dependency>
         <dependency>
             <groupId>com.bootcamp</groupId>
-            <artifactId>db-access</artifactId>
+            <artifactId>vbg-db-access</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
